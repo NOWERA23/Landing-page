@@ -10,19 +10,19 @@ export default function Landing() {
       <div className="absolute inset-0 grid grid-cols-3 gap-6 p-10 opacity-20">
 
         {/* Horizontal Motion */}
-        <img src="/Q1.JPG" className="animate-horizontal rounded-xl" />
-        <img src="/Q2.PNG" className="animate-horizontal rounded-xl" />
-        <img src="/Q3.JPG" className="animate-horizontal rounded-xl" />
+        <img src="/Q1.jpg" className="animate-horizontal rounded-xl" />
+        <img src="/Q2.png" className="animate-horizontal rounded-xl" />
+        <img src="/Q3.jpg" className="animate-horizontal rounded-xl" />
 
         {/* Vertical Motion */}
-        <img src="/Q4.JPG" className="animate-vertical rounded-xl" />
-        <img src="/Q5.JPG" className="animate-vertical rounded-xl" />
-        <img src="/Q6.JPG" className="animate-vertical rounded-xl" />
+        <img src="/Q4.jpg" className="animate-vertical rounded-xl" />
+        <img src="/Q5.jpg" className="animate-vertical rounded-xl" />
+        <img src="/Q6.jpg" className="animate-vertical rounded-xl" />
 
         {/* Static or slight movement */}
-        <img src="/Q7.JPG" className="animate-horizontal rounded-xl" />
-        <img src="/Q8.JPG" className="animate-vertical rounded-xl" />
-        <img src="/Q9.JPG" className="animate-horizontal rounded-xl" />
+        <img src="/Q7.jpg" className="animate-horizontal rounded-xl" />
+        <img src="/Q8.jpg" className="animate-vertical rounded-xl" />
+        <img src="/Q9.jpg" className="animate-horizontal rounded-xl" />
       </div>
 
       {/* Overlay Content */}
