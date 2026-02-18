@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Horizontal motion */
+@keyframes moveHorizontal {
+  0% { transform: translateX(-20px); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(-20px); }
+}
+
+/* Vertical motion */
+@keyframes moveVertical {
+  0% { transform: translateY(-20px); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(-20px); }
+}
+
+.animate-horizontal {
+  animation: moveHorizontal 6s ease-in-out infinite;
+}
+
+.animate-vertical {
+  animation: moveVertical 6s ease-in-out infinite;
+}
